@@ -26,4 +26,16 @@ La aplicación ya tiene una estructura base, pero le faltan funcionalidades clav
 - La API tiene un retraso simulado.
 - Debés mostrar un texto o componente que diga **"Cargando..."** mientras se obtienen los datos.
 
-###
+### 🟠 Nivel 3: El Carrito
+- Debemos mostrar la cantidad de elementos actuales en el carrito dentro del botón flotante inferior (ej: `🛒 Carrito: 1 / 3`).
+
+### 🔴 Extra: Validación
+- No se deberían poder agregar más de **3 elementos** al carrito.
+- Si el usuario intenta agregar un 4.º elemento, debe mostrarse una alerta o deshabilitarse el botón.
+
+---
+
+## Cómo ejecutar
+
+1. Instalar dependencias: `pnpm install`
+2. Correr en modo desarrollo: `pnpm dev`
