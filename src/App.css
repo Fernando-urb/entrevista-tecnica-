@@ -1,0 +1,61 @@
+.poke-store {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.poke-store > h1 {
+  margin-bottom: 24px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.pokemon-grid .nes-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.pokemon-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.pokemon-details {
+  flex: 1;
+}
+
+.pokemon-name,
+.pokemon-price {
+  font-weight: bold;
+}
+
+.pokemon-description {
+  font-size: 0.8rem;
+}
+
+.pokemon-button {
+  margin-top: 10px;
+}
+
+.cart-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+@media (max-width: 600px) {
+  .poke-store {
+    padding: 12px;
+  }
+
+  .cart-button {
+    right: 12px;
+    bottom: 12px;
+  }
+}
